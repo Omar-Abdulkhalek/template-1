@@ -1,0 +1,148 @@
+/* extra small screen */
+@media all and (max-width:576px)
+{
+    /* home style */
+    .home .title{
+        width: 90% !important;
+    }
+
+    .home .caption {
+        margin-left: 15px;
+        
+        margin-bottom: 150px;
+    
+    }
+    
+    .home .caption .butn{
+        margin:0 0 50px 0;
+        display: flex;
+        justify-content: center;
+        margin-left: -48px;
+
+    }
+
+
+    /* our-services styling */
+    .Our-Services .content{
+        padding-right:0 !important;
+        padding-left: 0;
+    }
+
+    .Our-Services .content .butn{
+        margin-left: -48px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /* contact-us section */
+    .Contact-Us .text{
+        padding:15px 0;
+        background-color: rgba(255, 0 , 0, .6);
+    }
+
+    .Contact-Us .text p{
+       text-align: center;
+    }
+
+    .Contact-Us .items .butn{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+/* small screen */
+@media all and (min-width:577px) and (max-width:768px){
+
+    /* home style */
+    .home .title{
+        width: 60% !important;
+    }
+
+    .home .caption {
+        margin-left: 15px;
+        margin-bottom: 150px;
+    }
+
+    /* our-services styling */
+    .Our-Services .content{
+        padding-right:0 !important;
+        padding-left: 0;
+    }
+
+    .Our-Services .content .butn{
+        margin-left: -48px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /* contact-us section */
+    .Contact-Us .text{
+        padding:15px 0;
+        background-color: rgba(255, 0 , 0, .6);
+    }
+
+    
+
+    .Contact-Us .items .butn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Contact-Us .text p{
+        text-align: center;
+     }
+
+    
+
+}
+
+
+/* medium screen */
+@media all and (min-width:769px) and (max-width:992px)
+{
+       
+    /* home style */
+    .home .title{
+        
+        width: 40% !important;
+    }
+
+    .home .caption .butn{
+        margin:0 0 50px 0;
+        display: flex;
+        justify-content: center;
+        margin-left: -48px;
+        
+    }
+
+
+
+}
+
+
+/* large screen */
+@media all and (min-width:993px) and (max-width:1200px)
+{
+     /* home style */
+    .home .title{
+        width: 30% !important;
+    }
+}
+
+
+
+/* extra large screen */
+@media all and (min-width:1201px)
+{
+     /* home style */
+    .home .title{
+        width: 25% !important;
+    }
+
+
+}

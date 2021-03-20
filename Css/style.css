@@ -1,0 +1,180 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* home section style */
+.home{
+    background-image:url(../img/bg-01.jpg) ;
+    /* height: 185vh; */
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.home .title{
+   
+    margin: 70px auto  ;
+    border-width: 2px !important;
+    
+}
+
+.home .title h1{
+    font-size: 3rem;
+}
+
+.home .caption{
+    margin-bottom: 250px;
+}
+
+.home .caption h2{
+    color: #96C700;
+    font-size: 2.7rem;
+}
+
+.home .caption p{
+    line-height: 2;
+    color: #676362;
+}
+
+.home .caption .butn{
+    margin: 0 50px 50px 0;
+}
+.home .caption .butn a{
+    
+    border-radius: 0 !important;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+
+
+/* our-services section style */
+.Our-Services{
+    background-image: url(../img/bg-02.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.Our-Services .content{
+    background-color: rgba(231, 235, 239,.7);
+    padding: 150px 0 ;
+
+
+}
+
+
+.Our-Services .content h2{
+    color:#3d93fc;
+    font-size: 2.5rem;
+}
+
+
+.Our-Services .content p{
+    line-height: 2;
+    color: #676362;
+
+}
+
+
+.Our-Services .content .icons{
+   line-height: 2;
+   color: #676362;
+}
+
+
+.Our-Services .content .butn a{
+    
+    border-radius: 0 !important;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+
+
+
+/* gellary styling section */
+
+.gellary{
+    background-image: url(../img/bg-03.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gellary ol li
+{
+
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+
+
+
+
+/* contact-us section style */
+
+
+.Contact-Us{
+    background-image: url(../img/bg-04.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.Contact-Us .items{
+    background-color: rgba(231, 235, 239,.7);
+    padding: 150px 0 ;
+
+
+}
+
+.Contact-Us .items h2{
+    color: #983333;
+    font-size: 2.5rem;
+}
+
+
+
+.Contact-Us .items p{
+    line-height: 2;
+    color: #676362;
+   
+
+}
+
+
+.Contact-Us .items textarea ,.Contact-Us .items input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #676362;
+    padding: 10px;
+}
+
+.Contact-Us .items textarea:focus , .Contact-Us .items input:focus{
+    outline-style: solid;
+    outline-color:#983333 ;
+    outline-width:1px ;
+}
+
+
+.Contact-Us .items .butn button{
+    
+    border-radius: 0 !important;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+
+
+.Contact-Us .text p span{
+    font-size: 1.2rem;
+}
